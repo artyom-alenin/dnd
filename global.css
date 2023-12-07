@@ -1,0 +1,15 @@
+.card {
+    margin-top: 15px;
+    transition: box-shadow .3s;
+    cursor: pointer;
+    background: gainsboro;
+}
+
+.card-header {
+    font-weight: bold;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 0 14px rgba(0, 31, 143, 0.6);
+}
